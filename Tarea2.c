@@ -1,4 +1,6 @@
+//librerias
 #include <stdio.h>
+
 
 int main() {
     float num1, num2, resultado;
@@ -42,3 +44,5 @@ int main() {
 
     return 0;
 }
+
+
