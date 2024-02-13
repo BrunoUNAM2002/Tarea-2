@@ -27,13 +27,10 @@ int main() {
             resultado = num1 * num2;
             break;
         case '/':
-            
-            if (num2 != 0) {
+            if (num2 != 0)
                 resultado = num1 / num2;
-            } else {
+            else
                 printf("Error: No se puede dividir por cero :/\n");
-                return 1;  // Salir del programa con código de error
-            }
             break;
         default:
             printf("Error: Operador no válido :(\n");
@@ -41,7 +38,6 @@ int main() {
     }
 
     printf("Resultado: %.2f\n", resultado);
-
     return 0;
 }
 
