@@ -31,12 +31,12 @@ int main() {
             if (num2 != 0) {
                 resultado = num1 / num2;
             } else {
-                printf("Error: No se puede dividir por cero.\n");
+                printf("Error: No se puede dividir por cero :/\n");
                 return 1;  // Salir del programa con código de error
             }
             break;
         default:
-            printf("Error: Operador no válido.\n");
+            printf("Error: Operador no válido :(\n");
             return 1;  // Salir del programa con código de error
     }
 
